@@ -96,6 +96,7 @@ color: #000;
     text-align: center;
     padding:30px;
     line-height: 20px;
+    display: flexbox;
     align-items:flex-start;
     align-content: flex-start;
 }
