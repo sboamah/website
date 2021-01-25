@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+    width:100%;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-animation:fadeIn 2s;
+}
+
+
+a{
+    color:#000;
+    text-decoration: none;
+    transition: ease-in-out 1s;
+}
+
+a:hover {
+    color: #D85858;
+    transition: ease-in-out 1s;
+}
+
+
+img{
+    position: relative;
+    transition: ease-in-out 1s;
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+/* Linkbar */
+
+#linkbar{
+position: fixed;
+width: 100px;
+height: auto;
+display: inline-block;
+padding: 10px;
+left: 0px;
+top: 0px;
+z-index: 1;
+}
+
+.links a{
+    color: #000;
+    padding-right: 10px;
+    text-decoration: none;
+    transition: ease-in-out 1s;
+}
+
+.links a:hover{
+    text-decoration: none;
+    border-right: 10px solid #D85858;
+    transition: ease-in-out 1s;
+}
+
+/* home about resume contact */
+.links{
+width: 100px;
+text-align: left;
+padding:10px;
+font-weight: 600;
+font-size: 13px;
+text-transform: uppercase;
+/* identical to box height, or 117% */
+color: #000;
+}
+
+
+/* Sylvia Boamah */
+h3{
+text-align: left;
+display: inline;
+font-weight: 400;
+padding:10px;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 400% */
+color: #000;
+}
+
+#work{
+    width: 80%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.workbox{
+    width: 280px;
+    height:300px;
+    display: inline-block;
+    text-align: center;
+    padding:30px;
+    line-height: 20px;
+    align-items:flex-start;
+}
+
+#warning{
+    width: 100px;
+    height:50px;
+    right: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    padding: 10px;
+    background-color: #FF0000;
+    font-size: 15px;
+    font-weight: 600;
+    display: none;
+    position: fixed;
+    z-index: 1;
+}
+
+/* Intro */
+#container1{
+position: relative;
+width: 70%;
+padding-left: 20px;
+height: 600px;
+margin: 0 auto;
+top: 87px;
+}
+
+#container2{
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    height: 600px;
+    top: 87px;
+    padding-left: 20px;
+}
+
+#container3{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    top:   137px;
+    padding-left: 20px;
+}
+
+#container4{
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    height: 600px;
+    top: 137px;
+    padding-left: 20px;
+}
+
+/* designer, developer, & creative. */
+#title{
+font-weight: bolder;
+font-size: 84px;
+/* or 94% */
+text-transform: lowercase;
+text-shadow: -2px -2px 0 #D85858, 2px -2px 0 #D85858, -2px 2px 0 #D85858, 2px 2px 0 #D85858;
+-webkit-text-fill-color: #fff;
+transition: ease-in-out 1s;
+}
+
+#title:hover {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
+    transition: ease-in-out 2s;
+    -webkit-animation:bounce 2s;
+    transition-delay: 1s;
+}
+
+/* Hi I’m Sylvia Boamah, an aspiring front-end developer, UI/UX designer, and content creator based in New Jersey. */
+h4{
+font-style: normal;
+font-weight: 200;
+font-size: 22px;
+color: #000000;
+}
+
+/* skills */
+h1{
+position: relative;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+text-transform: lowercase;
+color: #000000;
+}
+
+
+/* skills */
+p{
+position: relative;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+display: inline;
+}
+
+
+/* skill category */
+h2{
+position: relative;
+font-style: normal;
+font-weight: 200;
+font-size: 30px;
+text-transform: uppercase;
+color: #FF0000;
+display: inline-block;
+}
+
+h2 a{
+color: #FF0000;
+text-decoration: none;
+}
+
+@media (max-width:768px){
+  #title{
+      font-size: 50px;
+  }
+
+  #container1{
+    height: 400px;
+    top: 57px;
+    }
+    
+    #container2{
+        height: 600px;
+        margin-top: 87px;
+    }
+
+    #warning{
+        display: block;
+    }
+    
+    #container3{
+        position: relative;
+        width: 70%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        margin-top:   287px;
+        padding-left: 20px;
+    }
+    
+    #container4{
+        position: relative;
+        margin: 0 auto;
+        width: 70%;
+        height: 600px;
+        margin-top: 137px;
+        padding-left: 20px;
+    }
+
+    .workbox{
+        width: 220px;
+        padding:10px;
+    }
+
+    h4{
+        font-size: 18px;
+        }
+        
+        /* skills */
+        h1{
+        font-size: 50px;
+        }
+        
+        
+        /* skills */
+        p{
+        font-size: 15px;
+        }
+        
+        
+        /* skill category */
+        h2{
+        font-size: 24px;
+        }
+
+        h3{
+            font-size: 24px;
+            }
+        
+}
+
+
+@media (max-width:414px){
+    #title{
+        font-size: 36px;
+    }
+  
+    #container1{
+      height: 400px;
+      top: 57px;
+      }
+      
+      #container2{
+          height: 600px;
+          margin-top: 87px;
+      }
+      
+      #container3{
+          margin-top:   287px;
+          padding-left: 20px;
+      }
+      
+      #container4{
+          margin-top: 137px;
+          padding-left: 20px;
+      }
+  
+      .workbox{
+          width: 220px;
+          padding:10px;
+      }
+      #warning{
+        display: block;
+    }
+      h4{
+          font-size: 15px;
+          }
+          
+          /* skills */
+          h1{
+          font-size: 36px;
+          }
+          
+          
+          /* skills */
+          p{
+          font-size: 12px;
+          }
+          
+          
+          /* skill category */
+          h2{
+          font-size: 21px;
+          }
+  
+          h3{
+              font-size: 21px;
+              }
+          
+  }
