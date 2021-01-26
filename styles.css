@@ -13,8 +13,8 @@ body{
 }
 
 @keyframes moveIt {
-from {background-position: bottom left;}
-to {background-position: top right;}
+from {background-position: top right;}
+to {background-position: bottom left;}
 }
 
 a{
