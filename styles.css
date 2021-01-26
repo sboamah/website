@@ -7,8 +7,15 @@ body{
     font-family: 'Montserrat', sans-serif;
     animation: normal;
     -webkit-animation:fadeIn 2s;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url(images/scroll.png);
+    animation: moveIt 10s linear infinite;
+    background-repeat: repeat;
 }
 
+@keyframes moveIt {
+from {background-position: bottom left;}
+to {background-position: top right;}
+}
 
 a{
     color:#000;
