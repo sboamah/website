@@ -285,6 +285,7 @@ text-decoration: none;
             font-size: 10px;
             text-align: center;
             display: inline;
+            padding:5px;
             width: auto;
             }
 
@@ -325,6 +326,7 @@ text-decoration: none;
     font-size: 10px;
     width:auto;
     text-align: center;
+    padding:5px;
     display: inline;
     }
 
