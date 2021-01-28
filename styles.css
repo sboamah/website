@@ -262,7 +262,7 @@ text-decoration: none;
       #container2{
           height: auto;
       }
-      
+
       #container2 img{
         width: 50%;
       }
@@ -324,7 +324,7 @@ text-decoration: none;
     }
   
     .links{
-    font-size: 13px;
+    font-size: 10px;
     text-align: center;
     display: inline;
     }
@@ -347,18 +347,20 @@ text-decoration: none;
         }
 
     #container1{
+      margin-top: 100px;
       height: auto;
+      margin: 0 auto;
       }
       
       #container2{
-          height: auto;
+      height: auto;
       }
       #container2 img{
         width: 100%;
       }
 
       #work{
-        margin-top: 100px;
+        margin: 0 auto;  
       }
 
       .workbox{
