@@ -252,7 +252,7 @@ text-decoration: none;
     }
   
     #container1{
-    top: 100px;
+    top: 50px;
       height: auto;
       }
       
@@ -285,6 +285,7 @@ text-decoration: none;
             font-size: 13px;
             text-align: center;
             display: inline;
+            width: auto;
             }
 
       h4{
@@ -322,7 +323,7 @@ text-decoration: none;
   
     .links{
     font-size: 10px;
-    width:70px;
+    width:auto;
     text-align: center;
     display: inline;
     }
