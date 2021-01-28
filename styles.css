@@ -294,6 +294,23 @@ text-decoration: none;
         font-size: 11px;
     }
 
+    #linkbar{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        display: inline;
+        text-align: center;
+        padding: 10px;
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+        background-color: rgb(240, 165, 135);
+        }
+        
+        #linkbar img{
+            display: none;
+        }
+        
     #container1{
       height: auto;
       }
