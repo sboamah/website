@@ -124,6 +124,7 @@ color: #000;
 #work{
     width: 100%;
     margin: 0 auto;
+    margin-top: 50px;
     vertical-align: middle;
     align-items:flex-start;
     align-content: flex-start;
@@ -183,7 +184,7 @@ font-weight: bolder;
 font-size: 84px;
 /* or 94% */
 text-transform: lowercase;
-text-shadow: -2px -2px 0 #D85858, 2px -2px 0 #D85858, -2px 2px 0 #D85858, 2px 2px 0 #D85858;
+text-shadow: -2px -2px 0 #D85858, 1px -1px 0 #D85858, -1px 1px 0 #D85858, 1px 1px 0 #D85858;
 -webkit-text-fill-color: #fff;
 transition: ease-in-out 1s;
 }
@@ -289,6 +290,10 @@ text-decoration: none;
         font-size: 36px;
     }
   
+    #links{
+        font-size: 11px;
+    }
+
     #container1{
       height: auto;
       }
@@ -296,7 +301,15 @@ text-decoration: none;
       #container2{
           height: auto;
       }
-      
+      #container2 img{
+        width: 100%;
+      }
+
+      #work{
+        margin-left: 40px;
+        margin-top: 100px;
+      }
+
       .workbox{
         width: 100%;
         padding:5px;
@@ -314,7 +327,7 @@ text-decoration: none;
           
           /* skills */
           p{
-          font-size: 15px;
+          font-size: 12px;
           }
           
           
