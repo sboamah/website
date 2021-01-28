@@ -322,6 +322,7 @@ text-decoration: none;
   
     .links{
     font-size: 10px;
+    width:70px;
     text-align: center;
     display: inline;
     }
