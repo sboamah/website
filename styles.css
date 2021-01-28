@@ -277,6 +277,12 @@ text-decoration: none;
             display: none;
         }
 
+        .links{
+            font-size: 11px;
+            text-align: center;
+            display: inline;
+            }
+
       h4{
           font-size: 21px;
           }
@@ -310,8 +316,10 @@ text-decoration: none;
         font-size: 36px;
     }
   
-    #links{
-        font-size: 11px;
+    .links{
+    font-size: 11px;
+    text-align: center;
+    display: inline;
     }
 
     #linkbar{
