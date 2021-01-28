@@ -139,22 +139,6 @@ color: #000;
     justify-content: center;
 }
 
-#warning{
-    width: 100px;
-    height:50px;
-    right: 0px;
-    text-align: center;
-    vertical-align: middle;
-    color: #fff;
-    padding: 10px;
-    background-color: #FF0000;
-    font-size: 15px;
-    font-weight: 600;
-    display: none;
-    position: fixed;
-    z-index: 1;
-}
-
 /* Intro */
 #container1{
 position: relative;
@@ -274,10 +258,6 @@ text-decoration: none;
         margin-top: 87px;
     }
 
-    #warning{
-        display: block;
-    }
-    
     #container3{
         position: relative;
         width: 70%;
@@ -343,26 +323,24 @@ text-decoration: none;
       
       #container2{
           height: 600px;
-          margin-top: 87px;
+          top: 57px;
       }
       
       #container3{
-          margin-top:   287px;
+          top: 57px;
           padding-left: 20px;
       }
       
       #container4{
-          margin-top: 137px;
+          top: 57px;
           padding-left: 20px;
       }
   
       .workbox{
-          width: 220px;
-          padding:10px;
+        width: 100%;
+        padding:5px;
       }
-      #warning{
-        display: block;
-    }
+    
       h4{
           font-size: 15px;
           }
