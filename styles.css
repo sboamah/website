@@ -282,7 +282,7 @@ text-decoration: none;
         }
 
         .links{
-            font-size: 13px;
+            font-size: 10px;
             text-align: center;
             display: inline;
             width: auto;
@@ -346,7 +346,7 @@ text-decoration: none;
         }
 
     #container1{
-      top: 100px;
+      top: 50px;
       height: auto;
       margin: 0 auto;
       }
