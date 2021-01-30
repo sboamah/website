@@ -367,8 +367,7 @@ text-decoration: none;
 
       .workbox{
         width: 100%;
-        align-items: center;
-        vertical-align: middle;
+        align-items:flex-start;
         padding-bottom:20px;
       }
     
