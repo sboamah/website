@@ -104,6 +104,7 @@ padding:10px;
 font-weight: 600;
 font-size: 13px;
 text-transform: uppercase;
+animation: normal;
 /* identical to box height, or 117% */
 color: #000;
 }
