@@ -29,10 +29,6 @@ img{
     transition: ease-in-out 1s;
 }
 
-.hideme
-{
-    opacity:0;
-}
 
 /* Linkbar */
 
@@ -312,7 +308,6 @@ text-decoration: none;
     #container1{
       top: 50px;
       height: auto;
-      margin: 0 auto;
       }
       
       #container2{
