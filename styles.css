@@ -101,6 +101,8 @@ color: #000;
 }
 
 #showcontainer{
+  top: 100px;
+  position: relative;
   width: 960px;
   height: auto;
   margin: 0 auto;
