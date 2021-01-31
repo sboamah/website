@@ -323,6 +323,9 @@ text-decoration: none;
 
       .workbox{
         width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
         padding-bottom:20px;
       }
     
