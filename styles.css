@@ -103,7 +103,7 @@ color: #000;
 #showcontainer{
   top: 100px;
   position: relative;
-  width: 960px;
+  width: 1000px;
   height: auto;
   margin: 0 auto;
 }
@@ -218,7 +218,7 @@ text-decoration: none;
     }
 
     #showcontainer{
-      width: 640px;
+      width: 700px;
       height: auto;
       margin: 0 auto;
     }
@@ -342,7 +342,6 @@ text-decoration: none;
       }
 
       .workbox{
-        width: 100%;
         padding-left: 0px;
         padding-right: 0px;
         padding-top: 0px;
