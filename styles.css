@@ -246,7 +246,8 @@ text-decoration: none;
         left: 0px;
         top: 0px;
         z-index: 1;
-        background-color: #EBB786;
+        background-color: #fff;
+        border-bottom: 1px solid #000;
         }
         
         #linkbar img{
@@ -318,7 +319,8 @@ text-decoration: none;
         left: 0px;
         top: 0px;
         z-index: 1;
-        background-color: #EBB786;
+        background-color: #fff;
+        border-bottom: 1px solid #000;
         }
         
         #linkbar img{
