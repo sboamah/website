@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles.css';
 
-function Project(props) {
+
+function Project(props)  {
     return (
     <div className="workbox">
        <img src={props.img}></img> 
@@ -12,6 +13,7 @@ function Project(props) {
   </div>
     );
   }
+
   var app = (
     <div>
       <a href="moonlight.html"><Project img="images/moonlight.png" title="Moonlight Website Concept" role="UI Designer"/></a>
@@ -25,4 +27,5 @@ function Project(props) {
       <a href="poetry.html"><Project img="images/theartofchoice.png" title="Poetry" role="Writer"/></a>
     </div>
   );
+
   ReactDOM.render(app, document.querySelector('#app'));
