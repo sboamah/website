@@ -5,13 +5,10 @@ import './styles.css';
 
 function Project(props)  {
     return (
-    <div className="workbox">
-       <img src={props.img}></img> 
-      <p>{props.title}</p>
-      <p>{props.role}</p>
-     
-  </div>
-    );
+        React.createElement("div", { className: "workbox" },
+        React.createElement("img", { src: props.img }),
+        React.createElement("p", null, props.title),
+        React.createElement("p", null, props.role)));
   }
 
   var app = (
