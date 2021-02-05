@@ -10,7 +10,9 @@ body{
     background-repeat: repeat;
 }
 
-  
+hr {
+    border-top: 1px solid #000;
+  }
 
 a{
     color:#000;
