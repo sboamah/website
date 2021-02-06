@@ -234,7 +234,7 @@ text-decoration: none;
       }
 
       #linkbar{
-        position: absolute;
+        position: relative;
         width: 100%;
         height: auto;
         display: inline;
@@ -296,11 +296,12 @@ text-decoration: none;
   
     #linkbar p{
         display: inline;
+        width: 100px;
         text-align: center;
     }
 
     #linkbar{
-        position: absolute;
+        position: relative;
         width: 100%;
         height: auto;
         display: inline;
