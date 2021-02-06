@@ -49,6 +49,7 @@ z-index: 1;
     display: block;
     width: 100px;
     text-align: left;
+    font-size: 13px;
 }
 
 /* Sylvia Boamah */
@@ -253,6 +254,7 @@ text-decoration: none;
         #linkbar p{
         display: inline;
          text-align: center;
+         font-size: 11px;
         }
 
       h4{
@@ -297,6 +299,7 @@ text-decoration: none;
     #linkbar p{
         display: inline;
         width: 100px;
+        font-size: 10px;
         text-align: center;
     }
 
