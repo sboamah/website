@@ -237,14 +237,12 @@ text-decoration: none;
       #linkbar{
         position:absolute;
         width: 100%;
-        height: auto;
-        display: inline;
-        text-align: center;
-        padding: 10px;
-        left: 0px;
-        top: 0px;
-        z-index: 1;
         background-color: #fff0db;
+        height: 70px;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 0px;
+        color: #000;
         }
         
         #linkbar img{
@@ -302,19 +300,6 @@ text-decoration: none;
         font-size: 10px;
         text-align: center;
     }
-
-    #linkbar{
-        position:absolute;
-        width: 100%;
-        height: auto;
-        display: inline;
-        text-align: center;
-        padding: 10px;
-        left: 0px;
-        top: 0px;
-        z-index: 1;
-        background-color: #fff0db;
-        }
         
         #linkbar img{
             display: none;
