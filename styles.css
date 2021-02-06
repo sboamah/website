@@ -47,6 +47,8 @@ z-index: 1;
 
 #linkbar p{
     display: block;
+    width: 100px;
+    text-align: left;
 }
 
 /* Sylvia Boamah */
@@ -99,7 +101,11 @@ color: #000;
     margin-bottom: -10px;
     color: #000;
 }
-
+.contact p{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /* Intro */
 #container1{
 position: relative;
@@ -247,7 +253,8 @@ text-decoration: none;
         }
 
         #linkbar p{
-            display: inline;
+        display: inline;
+         text-align: center;
         }
 
       h4{
@@ -291,6 +298,7 @@ text-decoration: none;
   
     #linkbar p{
         display: inline;
+        text-align: center;
     }
 
     #linkbar{
