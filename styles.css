@@ -235,6 +235,7 @@ text-decoration: none;
       }
 
       #linkbar{
+        position:absolute;
         width: 100%;
         height: auto;
         display: inline;
@@ -303,6 +304,7 @@ text-decoration: none;
     }
 
     #linkbar{
+        position:absolute;
         width: 100%;
         height: auto;
         display: inline;
