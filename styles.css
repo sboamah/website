@@ -252,7 +252,7 @@ text-decoration: none;
         #linkbar p{
         display: inline;
          text-align: center;
-         font-size: 11px;
+         font-size: 11px !important;
         }
 
       h4{
@@ -297,7 +297,7 @@ text-decoration: none;
     #linkbar p{
         display: inline;
         width: 100px;
-        font-size: 10px;
+        font-size: 10px !important;
         text-align: center;
     }
         
