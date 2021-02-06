@@ -45,32 +45,9 @@ top: 0px;
 z-index: 1;
 }
 
-.links a{
-    color: #000;
-    padding-right: 10px;
-    text-decoration: none;
-    transition: ease-in-out 1s;
+#linkbar p{
+    display: block;
 }
-
-.links a:hover{
-    text-decoration: none;
-    border-right: 10px solid #D85858;
-    transition: ease-in-out 1s;
-}
-
-/* home about resume contact */
-.links{
-width: 100px;
-text-align: left;
-padding:10px;
-font-weight: 600;
-font-size: 13px;
-text-transform: uppercase;
-animation: normal;
-/* identical to box height, or 117% */
-color: #000;
-}
-
 
 /* Sylvia Boamah */
 h3{
@@ -158,7 +135,7 @@ top: 150px;
     position: relative;
     margin: 0 auto;
     width: 70%;
-    height: 600px;
+    height: auto;
 }
 
 /* designer, developer, & creative. */
@@ -269,16 +246,8 @@ text-decoration: none;
             display: none;
         }
 
-        .links{
-            font-size: 11px;
-            text-align: center;
+        #linkbar p{
             display: inline;
-            padding:5px;
-            width: auto;
-            }
-
-        .links a{
-            font-size: 11px;   
         }
 
       h4{
@@ -320,16 +289,8 @@ text-decoration: none;
       margin: 0 auto;
     }
   
-    .links{
-    font-size: 10px;
-    width:auto;
-    text-align: center;
-    padding:5px;
-    display: inline;
-    }
-
-    .links a{
-    font-size: 10px;   
+    #linkbar p{
+        display: inline;
     }
 
     #linkbar{
