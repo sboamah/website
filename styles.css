@@ -156,15 +156,12 @@ font-size: 84px;
 text-transform: lowercase;
 text-shadow: -2px -2px 0 #D85858, 1px -1px 0 #D85858, -1px 1px 0 #D85858, 1px 1px 0 #D85858;
 -webkit-text-fill-color: #fff;
-transition: ease-in-out 1s;
 }
 
 #title:hover {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
-    transition: ease-in-out 2s;
     animation: normal;
     -webkit-animation:bounce 2s;
-    transition-delay: 1s;
 }
 
 /* Hi I’m Sylvia Boamah, an aspiring front-end developer, UI/UX designer, and content creator based in New Jersey. */
