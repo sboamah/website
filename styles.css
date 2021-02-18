@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 
 body{
     width:100%;
     background-color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     animation: normal;
     -webkit-animation:fadeIn 2s;
     -moz-animation:fadeIn 2s;
@@ -13,7 +13,7 @@ body{
 }
 
 hr {
-    border-top: 1px solid #000;
+    border-top: 4px solid #000;
   }
 
 a{
