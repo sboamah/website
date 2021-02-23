@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@-ms-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-ms-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
 
 body{
     width:100%;
