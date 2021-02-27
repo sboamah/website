@@ -84,7 +84,7 @@ z-index: 1;
 #linkbar p{
     display: block;
     width: auto;
-    background-image: linear-gradient(to right, rgb(255, 184, 117) , rgb(215, 255, 220));
+    background-color: white;
     padding: 2px;
     text-align: center;
     border: 1px solid #000;
@@ -284,7 +284,7 @@ text-decoration: none;
         color: #000;
         }
         #linkbar p{
-            background-image: none;
+            background-color: transparent;
             border: none;
         }
         #linkbar img{
