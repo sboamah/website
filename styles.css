@@ -51,13 +51,11 @@ hr {
 a{
     color:#000;
     text-decoration: none;
-    font-weight: bolder;
     transition: ease-in-out 1s;
 }
 
 a:hover {
-    color: green;
-    font-weight: bolder;
+    color: red;
     transition: ease-in-out 1s;
 }
 
@@ -132,7 +130,7 @@ color: #000;
 
 .contact{
     width: 100%;
-    background-image: linear-gradient(to right, rgb(255, 184, 117) , rgb(215, 255, 220));
+    background-image: linear-gradient(to right, rgb(255, 230, 206) , rgb(255, 248, 239));
     height: 70px;
     text-align: center;
     padding: 20px 0;
@@ -276,7 +274,7 @@ text-decoration: none;
       #linkbar{
         position:absolute;
         width: 100%;
-        background-image: linear-gradient(to right, rgb(255, 184, 117) , rgb(215, 255, 220));
+        background-image: linear-gradient(to right, rgb(255, 230, 206) , rgb(255, 248, 239));
         height: auto;
         text-align: center;
         padding: 5px 0;
