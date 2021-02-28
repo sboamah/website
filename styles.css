@@ -336,7 +336,11 @@ text-decoration: none;
       height: auto;
       margin: 0 auto;
     }
-  
+
+    #showcontainer img{
+        width: 100%;
+      }
+
     #linkbar p{
         display: inline;
         width: 70px !important;
