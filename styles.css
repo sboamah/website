@@ -35,7 +35,7 @@
 
 body{
     width:100%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-family: 'Nunito', sans-serif;
     animation: normal;
     -webkit-animation:fadeIn 2s;
@@ -45,7 +45,7 @@ body{
 }
 
 hr {
-    border-top: 4px solid #000;
+    border-top: 1px solid #000;
   }
 
 a{
@@ -115,8 +115,8 @@ color: #000;
     height:300px;
     display: inline-block;
     text-align: center;
-    padding:20px;
-    line-height: 20px;
+    padding:25px;
+    line-height: 28px;
 }
 
 #showcontainer{
