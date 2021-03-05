@@ -15,12 +15,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/png" href="images/cartoonme.png" />
+
+  <style>
+    .gallery {
+      left: 15px;
+      display: inline-block;
+      white-space: nowrap;
+      width: 500px;
+    }
+    
+    
+    .gallery img {
+      width: 100%;
+    }
+
+    @media (max-width:480px){
+      .gallery{
+        width: 300px;
+      }
+    }
+   
+    </style>
 </head>
 
 <body>
-
-  <a id="button"></a>
-
 
     <div id="linkbar">
       <a href="index.html"><img src="images/cartoonme.png" style="width: 80px; height: 80px;"></a>
@@ -31,13 +49,19 @@
      
     </div>
     <div id="showcontainer">
-        <h1 style="text-align: center;">Poetry</h1>
-
-        <img src="images/theartofchoice.png" alt="The Art of Choice" style=" display: block;
-        margin-left: auto; margin-right: auto; width: 80%; padding: 10px;">
+        <h1 style="text-align: center;">Poetry</h1><br>
+        <h4 style="text-align: center;">A pastime that helps me release my thoughts.</h4>
+        <div class="gallery">
+          <a target="_blank" href="images/theartofchoice.png">
+        <img src="images/theartofchoice.png" alt="The Art of Choice">
+          </a>
+        </div>
     
-        <img src="images/fate.png" alt="Fate" style=" display: block;
-        margin-left: auto; margin-right: auto; width: 80%; padding: 10px;">
+    <div class="gallery">
+      <a target="_blank" href="images/fate.png">
+        <img src="images/fate.png" alt="Fate">
+      </a>
+      </div>
       
     </div><br>
     <div class="contact">
