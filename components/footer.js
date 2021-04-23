@@ -55,7 +55,12 @@
         box-shadow: inset 0 -2px 0 0 #000;
         }
 
+        @media (max-width: 480px){
 
+          nav {
+              font-size: 11px;
+          }
+      }
         </style>
         <footer>
         <nav>

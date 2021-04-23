@@ -52,6 +52,7 @@
 
             nav {
                 text-align: center;
+                font-size: 11px;
             }
         }
 

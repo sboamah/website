@@ -393,6 +393,10 @@ text-decoration: none;
       #container2 img{
         width: 100%;
       }
+      #container2 p{
+        width: 100%; 
+        padding-left: 5px;
+    }
 
       #work{
         margin: 0 auto;  
