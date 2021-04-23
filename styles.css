@@ -325,10 +325,22 @@ text-decoration: none;
   
     #container1{
     top: 50px;
+    width: 100%;
       height: auto;
       }
       
       #container2{
+        width: 100%;
+          height: auto;
+      }
+
+      #container3{
+        width: 100%;
+          height: auto;
+      }
+
+      #container4{
+        width: 100%;
           height: auto;
       }
 
