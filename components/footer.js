@@ -58,13 +58,17 @@
         @media (max-width: 800px){
 
           nav {
-              font-size: 11px;
+              font-size: 12px;
           }
 
         @media (max-width: 480px){
 
           nav {
-              font-size: 10px;
+              font-size: 11px;
+            }
+
+            ul p{
+              font-size: 13px;
           }
       }
         </style>
