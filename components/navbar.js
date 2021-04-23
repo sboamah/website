@@ -48,7 +48,7 @@
         @media (max-width: 800px){
 
             nav {
-                font-size: 12px;
+                font-size: 14px;
             }
   
 
@@ -59,7 +59,7 @@
 
             nav {
                 text-align: center;
-                font-size: 11px;
+                font-size: 12px;
             }
         }
 
