@@ -45,6 +45,13 @@
         box-shadow: inset 0 -2px 0 0 #000;
         }
 
+        @media (max-width: 800px){
+
+            nav {
+                font-size: 11px;
+            }
+  
+
         @media (max-width: 480px){
             p{
                 display:none;
@@ -52,7 +59,7 @@
 
             nav {
                 text-align: center;
-                font-size: 11px;
+                font-size: 10px;
             }
         }
 

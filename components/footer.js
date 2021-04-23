@@ -55,10 +55,16 @@
         box-shadow: inset 0 -2px 0 0 #000;
         }
 
-        @media (max-width: 480px){
+        @media (max-width: 800px){
 
           nav {
               font-size: 11px;
+          }
+
+        @media (max-width: 480px){
+
+          nav {
+              font-size: 10px;
           }
       }
         </style>
