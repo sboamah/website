@@ -328,6 +328,10 @@ text-decoration: none;
     width: 100%;
       height: auto;
       }
+
+      #container1 img{
+        width: 20%; 
+      }
       
       #container2{
         width: 100%;
@@ -398,7 +402,10 @@ text-decoration: none;
       top: 50px;
       height: auto;
       }
-      
+      #container1 img{
+        width: 40%; 
+      }
+
       #container2{
       height: auto;
       }
