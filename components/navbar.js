@@ -60,6 +60,7 @@
             nav {
                 text-align: center;
                 font-size: 12px;
+                width: 100%;
             }
         }
 

@@ -327,6 +327,7 @@ text-decoration: none;
     #container1{
     top: 50px;
     width: 80%;
+    margin: 0 auto;
       height: auto;
       }
 
@@ -337,6 +338,7 @@ text-decoration: none;
       #container2{
         width: 80%;
           height: auto;
+          margin: 0 auto;
       }
 
       #container2 p{
@@ -347,11 +349,13 @@ text-decoration: none;
       #container3{
         width: 80%;
           height: auto;
+          margin: 0 auto;
       }
 
       #container4{
         width: 80%;
           height: auto;
+          margin: 0 auto;
       }
 
       #container2 img{
@@ -407,16 +411,20 @@ text-decoration: none;
     #container1{
       top: 50px;
       height: auto;
+      margin: 0 auto;
       }
       #container1 img{
         width: 40%; 
+        margin: 0 auto;
       }
 
       #container2{
       height: auto;
+      margin: 0 auto;
       }
       #container2 img{
         width: 100%;
+        margin-top: -20px;
       }
       #container2 p{
         width: 100%; 

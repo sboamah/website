@@ -65,6 +65,7 @@
 
           nav {
               font-size: 12px;
+              width: 100%;
             }
 
             ul p{
@@ -87,7 +88,7 @@
         style="width: 20px;"></a>
       <a href="https://github.com/sboamah"><img src="images/iconfinder_github_317712.png" 
         style="width: 20px;"></a>
-      <a href="https://www.instagram.com/jollofrican/"><img src="https://i.dlpng.com/static/png/5518119-new-instagram-logo-black-and-white-png-2019-edigital-black-and-white-instagram-logo-png-1576_1576_preview.png"
+      <a href="https://www.instagram.com/jollofrican/"><img src="https://mpng.subpng.com/20180629/vue/kisspng-www-mevrouwpak-nl-advertising-graphic-design-insta-instagramm-5b3692f028e740.4061558515303032161676.jpg"
          style="width: 20px;"></a>
          <br><br>
         <p>Site by <a href="https://www.linkedin.com/in/sylvia-boamah/">Sylvia Boamah.</a></p>
