@@ -7,7 +7,7 @@
         height: 50px;
         margin: 0 auto;
         margin-top: -10px;
-        margin-left: -10px;
+        margin-left: 0px;
         padding: 5px 0px;
         text-align: right;
         background: #e2dbcd;

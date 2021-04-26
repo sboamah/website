@@ -8,7 +8,7 @@
         margin: 0 auto;
         margin-top: 100px;
         margin-bottom: -10px;
-        margin-left: -10px;
+        margin-left: 0px;
         width: 100%;
         padding: 25px 0px;
         text-align: center;
@@ -39,7 +39,7 @@
         }
 
         img{
-            filter:grayscale(100%) brightness(50%);
+            filter:grayscale(100%);
             padding-right: 15px;
         }
 

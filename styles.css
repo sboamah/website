@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
 @-webkit-keyframes fadeIn {
 	0% {opacity: 0;}	
@@ -72,9 +72,10 @@
 
 body{
     width:100%;
-    background-color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    font-family: 'Jost', sans-serif;
     animation: normal;
+    margin: 0 auto;
     -webkit-animation:fadeIn 2s;
     -moz-animation:fadeIn 2s;
     -ms-animation:fadeIn 2s;
@@ -173,11 +174,12 @@ color: #000;
 #container1{
 position: relative;
 width: 70%;
+padding: 50px 0;
 height: 600px;
 margin: 0 auto;
 display: block;
-top: 150px;
-
+top: 100px;
+background: radial-gradient(circle, rgb(168, 206, 153) 0%, rgb(255, 252, 66) 20%, rgba(255,255,255,1) 50%);
 }
 
 #container1 img{
