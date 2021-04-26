@@ -7,7 +7,6 @@
         height: 150px;
         margin: 0 auto;
         margin-top: 100px;
-        margin-bottom: -10px;
         margin-left: 0px;
         width: 100%;
         padding: 25px 0px;
@@ -65,7 +64,6 @@
 
           nav {
               font-size: 12px;
-              width: 100%;
             }
 
             ul p{
