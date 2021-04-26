@@ -63,6 +63,11 @@
                 text-align: center;
                 font-size: 12px;
             }
+
+            a {
+                margin: 0px;
+                padding-right: 15px;
+                }
         }
 
         </style>

@@ -70,6 +70,11 @@
             ul p{
               font-size: 12px;
           }
+
+          ul li {
+            margin: 0px;
+            padding-right: 15px;
+            }
       }
         </style>
         <footer>
