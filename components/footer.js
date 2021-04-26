@@ -40,7 +40,7 @@
 
         img{
             filter:grayscale(100%);
-            padding-right: 15px;
+            margin-right: 15px;
         }
 
         a {
