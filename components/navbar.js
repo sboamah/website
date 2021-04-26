@@ -5,6 +5,8 @@
         <style>
         nav {
         height: 50px;
+        width: 100%;
+        position: relative;
         margin: 0 auto;
         margin-top: -10px;
         margin-left: 0px;

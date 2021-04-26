@@ -6,6 +6,7 @@
         nav {
         height: 150px;
         margin: 0 auto;
+        position: relative;
         margin-top: 100px;
         margin-left: 0px;
         width: 100%;
@@ -81,13 +82,13 @@
         <li><a href="contact">contact</a></li>
         <br><br>
         <a href="https://www.linkedin.com/in/sylvia-boamah/"><img src="https://image.flaticon.com/icons/png/512/38/38669.png" 
-        style="width: 20px; border-radius: 2px;"></a>
+        alt="Linkedin Logo" style="width: 20px; border-radius: 2px;"></a>
       <a href="https://www.behance.net/sylviaboamah"><img src="images/iconfinder_1_Behance2_glyph_svg_5296523.png" 
-        style="width: 20px;"></a>
+        alt="Behance Logo" style="width: 20px;"></a>
       <a href="https://github.com/sboamah"><img src="images/iconfinder_github_317712.png" 
-        style="width: 20px;"></a>
+        alt="Github" style="width: 20px;"></a>
       <a href="https://www.instagram.com/jollofrican/"><img src="https://mpng.subpng.com/20180629/vue/kisspng-www-mevrouwpak-nl-advertising-graphic-design-insta-instagramm-5b3692f028e740.4061558515303032161676.jpg"
-         style="width: 20px;"></a>
+        alt="Instagram" style="width: 20px;"></a>
          <br><br>
         <p>Site by <a href="https://www.linkedin.com/in/sylvia-boamah/">Sylvia Boamah.</a></p>
         </ul>
