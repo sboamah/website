@@ -3,12 +3,15 @@
 
     footerTemplate.innerHTML = `
         <style>
+        footer{
+        margin: 0 auto;
+        text-align: center;
+        }
+
         nav {
         height: 150px;
         margin: 0 auto;
         position: relative;
-        margin-top: 100px;
-        margin-left: 0px;
         width: 100%;
         padding: 25px 0px;
         text-align: center;
@@ -19,7 +22,7 @@
         list-style: none;
         display: inline;
         text-transform: uppercase;
-        margin: 0 15px;
+        margin-right: 15px;
         }
 
         ul li a {
@@ -67,13 +70,15 @@
               font-size: 12px;
             }
 
+          ul  {
+              margin-left: -35px;
+          }
             ul p{
               font-size: 12px;
           }
 
           ul li {
-            margin: 0px;
-            padding-right: 15px;
+            margin-right: 15px;
             }
       }
         </style>

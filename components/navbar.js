@@ -8,9 +8,7 @@
         width: 100%;
         position: relative;
         margin: 0 auto;
-        margin-top: -10px;
-        margin-left: 0px;
-        padding: 5px 0px;
+        padding: 7px 0px;
         text-align: right;
         background: #e2dbcd;
         }
@@ -54,7 +52,7 @@
             }
   
 
-        @media (max-width: 480px){
+        @media (max-width: 497px){
             p{
                 display:none;
             }
@@ -63,11 +61,13 @@
                 text-align: center;
                 font-size: 12px;
             }
-
+            ul  {
+                margin-left: -35px;
+            }
             a {
-                margin: 0px;
-                padding-right: 15px;
-                }
+                margin-right: 15px;
+                
+            }
         }
 
         </style>

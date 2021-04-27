@@ -419,6 +419,7 @@ text-decoration: none;
       #container1 img{
         width: 40%; 
         margin: 0 auto;
+        
       }
 
       #container2{
@@ -428,6 +429,9 @@ text-decoration: none;
       #container2 img{
         width: 100%;
         margin-top: -20px;
+        border: none;
+        padding: 0px;
+        padding-bottom: 10px;
       }
       #container2 p{
         width: 100%; 
