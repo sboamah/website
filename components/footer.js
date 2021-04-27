@@ -13,6 +13,7 @@
         margin: 0 auto;
         position: relative;
         width: 100%;
+        margin-top: 100px;
         padding: 25px 0px;
         text-align: center;
         background: #e2dbcd; 
