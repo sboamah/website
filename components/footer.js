@@ -24,6 +24,7 @@
         display: inline;
         text-transform: uppercase;
         margin-right: 15px;
+        font-size: 15px;
         }
 
         ul li a {
@@ -34,7 +35,7 @@
             list-style: none;
             display: inline;
             text-transform: uppercase;
-            font-size: 16px;
+            font-size: 15px;
             color: #888;
         }
 
@@ -44,12 +45,12 @@
 
         img{
             filter:grayscale(100%);
-            margin-right: 15px;
+           
         }
 
         a {
         font-weight: 200;
-        
+         margin-right: 15px;
         text-decoration: none;
         }
 
