@@ -23,8 +23,6 @@
         list-style: none;
         display: inline;
         text-transform: uppercase;
-        margin-right: 15px;
-        font-size: 15px;
         }
 
         ul li a {
@@ -50,8 +48,8 @@
 
         a {
         font-weight: 200;
-         margin-right: 15px;
         text-decoration: none;
+        margin-right: 10px;
         }
 
         a:hover {
@@ -70,10 +68,11 @@
 
           nav {
               font-size: 12px;
+              text-align: center;
             }
 
           ul  {
-              margin-left: -35px;
+              margin-left: -15px;
           }
             ul p{
               font-size: 12px;
