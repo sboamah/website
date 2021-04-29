@@ -163,6 +163,8 @@ color: #000;
   top: 60px;
   position: relative;
   width: 1020px;
+  align-items: flex-start;
+  justify-content: left;
   height: fit-content;
   margin: 0 auto;
   text-align: left;

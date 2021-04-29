@@ -18,21 +18,59 @@
   <link rel="icon" type="image/png" href="images/cartoonme.png" />
   <style>
     .gallery {
-      left: 5px;
-      display: inline-block;
-      white-space: nowrap;
+      display: inline-grid;
+      align-items: center;
+      justify-content: left;
+      column-gap: 20px;
+      row-gap: 20px;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: auto;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 800px) {
+      .gallery{
+      grid-template-columns: 300px 300px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .gallery{
+      grid-template-columns: 300px;
+      }
+    }
+    
+    img:hover{
+      width: 300px;
+      height: 300px;
+      background-color: white;
+      opacity: 0.6;
+      color: black;
+    }
+    body{
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h3 {
+      
+      padding: 10px 100px;
+      text-align: center;
+    }
+
+    img {
       width: 300px;
       height: 300px;
       object-fit: cover;
+      box-shadow: 0px 0px 2px #ddd ;
     }
-    
-    
-    .gallery img {
-      width: 300px;
-      height: 300px;
-      object-fit: cover;
-    }
-   
+
+   hr{
+     background-color: #eee;
+     width: 70%;
+     height: 1px;
+     border: none;
+   }
     </style>
 </head>
 
@@ -40,73 +78,71 @@
 
   <my-navbar></my-navbar>
   
-    <div id="showcontainer" style="text-align: center;">
       <h1 style="text-align: center;">Art</h1>
-      <h3 style="text-align: center;">Graphic Design</h3><br><br>
-      <h4><strong>Softwares:</strong> Photoshop, Figma, Canva</h4>
-      <span class="gallery">
+      <h4 style="text-align: center;"><strong>Softwares:</strong> Photoshop, Figma, Canva</h4>
+      <hr><br>
+      <h3>Graphic Design</h3><br><br>
+  <hr><br>
+      
+      <div class="gallery">
         <a target="_blank" href="images/naturegirl.png">
         <img src="images/naturegirl.png" alt="Nature Girl (Brown)">
         </a>
-      </span>
-
-      <span class="gallery">
+    
         <a target="_blank" href="images/lightnaturegirl.png">
         <img src="images/lightnaturegirl.png" alt="Nature Girl (Light)">
         </a>
-      </span>
-
-      <span class="gallery">
+    
         <a target="_blank" href="images/darknaturegirl.png">
         <img src="images/darknaturegirl.png" alt="Nature Girl (Dark)">
         </a>
-      </span>
 
-      <span class="gallery">
         <a target="_blank" href="images/Thehighestlowkey.png">
         <img src="images/Thehighestlowkey.png" alt="Lancetti" height="450px">
         </a>
-      </span>
-      <span class="gallery">
+   
         <a target="_blank" href="images/Thehighestlowkey2.png">
         <img src="images/Thehighestlowkey2.png" alt="Lancetti" height="450px">
         </a>
-      </span>
-      <span class="gallery">
+      
         <a target="_blank" href="images/dreamenough.png">
-        <img src="images/dreamenough.png" alt="Dream" height="450px">
+        <img src="images/dreamenough.png" alt="Dream Enough?" height="450px">
         </a>
-      </span>
+
+        <a target="_blank" href="images/underthesun.png">
+          <img src="images/underthesun.png" alt="Under The Sun" height="450px">
+          </a>
+        </div>
       <br>
       <br>
-      <h3 style ="text-align: center;">Flyers</h3><br><br>
+      <hr><br>
+      <h3>Flyers</h3><br><br><hr>
       <h4><strong>Organization:</strong> Black Student Union</h4>
-      <span class="gallery">
+      <div class="gallery">
         <a target="_blank" href="images/CULTURESHOCK.png">
         <img src="images/CULTURESHOCK.png" alt="Culture Shock Event Flyer" height="400px">
         </a>
-      </span>
-      <span class="gallery">
+
         <a target="_blank" href="images/KWANZAA.png">
         <img src="images/KWANZAA.png" alt="Kwanzaa Event Flyer" height="400px">
         </a>
-      </span>
-      <span class="gallery">
+     
         <a target="_blank" href="images/WonderWomxn.png">
         <img src="images/WonderWomxn.png" alt="Wonder Womxn Event Flyer" height="400px">
         </a>
-      </span>
+      </div>
+<br><br><hr><br>
+      <h3>Logos</h3><br><br><hr> <br>
 
-      <br>
-      <br>
-      <h3 style ="text-align: center;">Logos</h3><br><br>
-
-      <span class="gallery">
+      <div class="gallery">
         <a target="_blank" href="images/mixedicon.png">
         <img src="images/mixedicon.png" alt="Mixed Icon Logo">
         </a>
-      </span>
-    </div>
+
+        <a target="_blank" href="images/packagedirect.png">
+          <img src="images/packagedirect.png" alt="Package Direct Logo">
+          </a>
+      </div>
 <br><br>
   <my-footer></my-footer>
 
