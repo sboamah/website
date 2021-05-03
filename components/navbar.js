@@ -8,15 +8,16 @@
         width: 100%;
         position: relative;
         margin: 0 auto;
-        padding: 7px 0px;
+        padding: 5px 0px;
         text-align: right;
-        background: #e2dbcd;
+        vertical-align: middle;
+        background: #000;
         }
 
         ul li {
         list-style: none;
         display: inline;
-        font-weight: 200;
+        font-weight: 100;
         text-transform: uppercase;
         }
 
@@ -27,7 +28,7 @@
         }
 
         p {
-            font-weight: 700;
+            font-weight: 300;
             display: inline;
             text-transform: uppercase;
         }
@@ -35,14 +36,15 @@
         a {
         
         margin: 0 15px;
-        color: #000;
+        color: #fff;
+        font-weight: 100;
         text-decoration: none;
         }
 
         a:hover {
         padding-bottom: 3px;
         transition: ease-in-out 1s;
-        box-shadow: inset 0 -2px 0 0 #000;
+        box-shadow: inset 0 -2px 0 0 #fff;
         }
 
         @media (max-width: 800px){
@@ -59,7 +61,7 @@
 
             nav {
                 text-align: center;
-                font-size: 12px;
+                font-size: 13px;
             }
             ul  {
                 margin-left: -35px;

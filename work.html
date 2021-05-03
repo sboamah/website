@@ -19,70 +19,125 @@
 <script src="components/footer.js" type="text/javascript"></script>
   <link rel="icon" type="image/png" href="images/cartoonme.png" />
   
+  <style>
+    .gallery {
+      display: inline-grid;
+      align-items: center;
+      justify-content: left;
+      column-gap: 50px;
+      row-gap: 50px;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: auto;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 800px) {
+      .gallery{
+      grid-template-columns: 300px 300px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .gallery{
+      grid-template-columns: 300px;
+      }
+    }
+    
+    .pic{
+      justify-self: center;
+    }
+
+    img:hover{
+      width: 300px;
+      height: 300px;
+      background-color: white;
+      opacity: 0.6;
+      color: black;
+    }
+    body{
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h3 {
+      
+      padding: 10px 100px;
+      text-align: center;
+    }
+
+    img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      box-shadow: 0px 0px 2px #ddd ;
+    }
+
+    </style>
 </head>
 
 <body>
 
   <my-navbar></my-navbar>
  
-    <div id="showcontainer"> 
+    
       <h1 style="text-align: center;">Projects</h1>
-      <h5 style="text-align: center; font-size: 18px; font-weight: 200;">Here is an overview of my finished projects!</h5>
-      <div class="workbox">
+      <h5 style="text-align: center; font-size: 18px; font-weight: 200;">Here is an overview of my finished projects!</h5><br>
+     <div class="gallery">  
+      <div class="pic">
       <a href="moonlight"><img src="images/moonlight.png" alt="Moonlight Website Concept" 
       style="width:100%;"></a><br>
       <p style="text-transform: uppercase; font-weight: 600; font-size: 15px;">Moonlight Website Concept</p><br>
       <p style="text-transform: uppercase; font-weight: 200; font-size: 12px; color: #aaa;">UI Designer</p>
       </div>
-      <div class="workbox">
+      <div class="pic">
       <a href="dailyui"><img src="images/dailyui.png" alt="DailyUI Challenge" 
       style="width:100%;"></a><br>
       <p style="text-transform: uppercase; font-weight: 600; font-size: 15px;">DailyUI Challenge</p><br>
       <p style="text-transform: uppercase; font-weight: 200; font-size: 12px; color: #aaa;">UI Designer</p>
       </div>
 
-      <div class="workbox">
+      <div class="pic">
       <a href="aoty"><img src="images/aoty.png" alt="Album of the Year Site" 
       style="width:100%;"></a><br>
       <p style="text-transform: uppercase; font-weight: 600; font-size: 15px;">Album of the Year Site</p><br>
       <p style="text-transform: uppercase; font-weight: 200; font-size: 12px; color: #aaa;">UI Designer, Front-end developer</p>
       </div>
 
-      <div class="workbox">
+      <div class="pic">
       <a href="positiveaffirmations"><img src="images/posaffirm.png" alt="Positive Affirmation Generator" 
       style="width:100%;"></a><br>
       <p style="text-transform: uppercase; font-weight: 600; font-size: 14px;">Positive Affirmation Generator</p><br>
       <p style="text-transform: uppercase; font-weight: 200; font-size: 12px; color: #aaa;">UI Designer, Front-end developer</p>
       </div>
 
-      <div class="workbox">
+      <div class="pic">
       <a href="blackaffairscouncil"><img src="images/bac.png" alt="Black Affairs Council Website" 
       style="width:100%;"></a><br>
       <p style="text-transform: uppercase; font-weight: 600; font-size: 14px;">Black Affairs Council Website</p><br>
       <p style="text-transform: uppercase; font-weight: 200; font-size: 12px; color: #aaa;">UI Designer, Front-end developer</p>
       </div>
-       <div class="workbox">
+       <div class="pic">
           <a href="https://drive.google.com/file/d/1o64yfoMVySbPEyIuUcEcPFNdSE_01vkQ/view?usp=sharing"><img src="images/weathersystem.png" alt="Weather System" 
           style="width:100%;"></a><br>
           <p style="text-transform: uppercase; font-weight: 600; font-size: 14px;">Weather System</p><br>
           <p style="text-transform: uppercase; font-weight: 200; font-size: 12px; color: #aaa;">Programmer, Reporter</p>
         </div>
 
-        <div class="workbox">
+        <div class="pic">
           <a href="music"><img src="images/talkingstage.jpg" alt="Talking Stage" 
           style="width:100%;"></a><br>
           <p style="text-transform: uppercase; font-weight: 600; font-size: 14px;">Music</p><br>
           <p style="text-transform: uppercase; font-weight: 200; font-size: 12px; color: #aaa;">Singer, Songwriter, Producer</p>
         </div>
 
-        <div class="workbox">
+        <div class="pic">
           <a href="art"><img src="images/naturegirl.png" alt="Nature Girl" 
           style="width:100%;"></a><br>
           <p style="text-transform: uppercase; font-weight: 600; font-size: 14px;">Art</p><br>
           <p style="text-transform: uppercase; font-weight: 200; font-size: 12px; color: #aaa;">Graphic Designer</p>
         </div>
 
-      <div class="workbox">
+      <div class="pic">
         <a href="poetry"><img src="images/theartofchoice.png" alt="Poem" 
         style="width:100%;"></a><br>
         <p style="text-transform: uppercase; font-weight: 600; font-size: 14px;">Poetry</p><br>

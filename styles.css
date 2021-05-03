@@ -72,14 +72,12 @@
 
 body{
     width:100%;
-    background-color: #ffffff;
     font-family: 'Jost', sans-serif;
     animation: normal;
     margin: 0 auto;
     -webkit-animation:fadeIn 2s;
     -moz-animation:fadeIn 2s;
     -ms-animation:fadeIn 2s;
-    background-repeat: repeat;
 }
 
 hr {
@@ -101,7 +99,7 @@ button {
     border: 1px solid #000;
     background-color: #fff;
     color: #000;
-    padding: 25px;
+    padding: 18px;
     font-size: 15px;
     width: fit-content;
     display: inline;
@@ -124,7 +122,7 @@ button a{
 h3{
 text-align: left;
 display: inline;
-font-weight: 400;
+font-weight: 300;
 padding:10px;
 font-size: 30px;
 line-height: 30px;
@@ -176,21 +174,11 @@ color: #000;
 #container1{
 position: relative;
 width: 70%;
-padding: 50px 0;
+padding: 50px 30px;
 height: 600px;
 margin: 0 auto;
 display: block;
 top: 100px;
-background: radial-gradient(circle, rgb(168, 206, 153) 0%, rgb(255, 252, 66) 20%, rgba(255,255,255,1) 50%);
-background-size: cover;
-}
-
-#container1 img{
-    width: 10%; 
-    padding:10px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 
@@ -244,7 +232,6 @@ background-size: cover;
 
 /* designer, developer, & creative. */
 #title{
-font-weight: bolder;
 font-size: 84px;
 /* or 94% */
 display: block;
@@ -274,7 +261,7 @@ h1{
 position: relative;
 font-style: normal;
 display: block;
-font-weight: bold;
+font-weight: 100;
 font-size: 70px;
 line-height: 60px;
 text-transform: lowercase;
@@ -286,19 +273,16 @@ color: #000000;
 p{
 position: relative;
 font-style: normal;
-font-weight: 500;
+font-weight: 300;
 font-size: 18px;
 color: #000000;
 display: inline;
 }
 
-p::first-letter {
-    font-size: 200%;
-    color: #8f8672;
-}
-
 h1::first-letter {
-    color: #8f8672;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 #000, 1px 1px 0 #000;
+  animation: normal;
+ color:rgb(255, 255, 255);
 }
 
 /* skill category */
