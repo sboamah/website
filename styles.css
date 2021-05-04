@@ -174,11 +174,9 @@ color: #000;
 #container1{
 position: relative;
 width: 70%;
-padding: 50px 30px;
-height: 600px;
+padding: 150px 30px;
 margin: 0 auto;
-display: block;
-top: 100px;
+background: radial-gradient(circle, rgb(255, 240, 143) 0%, rgb(255, 210, 77) 22%, rgba(255,255,255,1) 50%);
 }
 
 
