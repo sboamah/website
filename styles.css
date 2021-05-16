@@ -294,6 +294,11 @@ color: #000000;
 display: inline;
 }
 
+li{
+  font-weight: 300;
+  font-size: 18px;
+  }
+
 h1::first-letter {
 text-shadow: -1px -1px 0 #000, 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 #000, 1px 1px 0 #000;
   animation: normal;
@@ -383,6 +388,9 @@ text-decoration: none;
           font-size: 15px;
           }
           
+          li{
+            font-size: 15px;
+            }
           
           /* skill category */
           h2{
@@ -465,6 +473,10 @@ text-decoration: none;
           font-size: 12px;
           }
           
+          li{
+            font-size: 12px;
+            }
+            
           
           /* skill category */
           h2{
