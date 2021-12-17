@@ -11,10 +11,12 @@
         padding: 5px 0px;
         text-align: right;
         vertical-align: middle;
-        background: #000;
+        background: rgb(255, 210, 77);;
         }
 
         ul li {
+        font-size: 12px;
+        margin: 10px 15px;
         list-style: none;
         display: inline;
         font-weight: 100;
@@ -28,16 +30,16 @@
         }
 
         p {
-            font-weight: 300;
+            font-size: 28px;
+            margin: 5px;
+            font-weight: 600;
             display: inline;
-            text-transform: uppercase;
+            text-transform: capitalize;
         }
 
         a {
-        
-        margin: 0 15px;
-        color: #fff;
-        font-weight: 100;
+        color: #000;
+        font-weight: 300;
         text-decoration: none;
         }
 
@@ -50,9 +52,15 @@
         @media (max-width: 800px){
 
             nav {
-                font-size: 14px;
+                font-size: 13px;
+            }
+
+            p{
+                font-size: 20px;
+                margin: 10px;
             }
   
+        }
 
         @media (max-width: 497px){
             p{
