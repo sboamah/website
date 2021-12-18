@@ -16,7 +16,7 @@
 
         ul li {
         font-size: 12px;
-        margin: 10px 15px;
+        margin: 15px 5px;
         list-style: none;
         display: inline;
         font-weight: 100;
