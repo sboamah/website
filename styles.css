@@ -123,12 +123,8 @@ button a{
 
 /* Sylvia Boamah */
 h3{
-text-align: left;
-display: inline;
 font-weight: 300;
-padding:10px;
-font-size: 30px;
-line-height: 30px;
+font-size: 18px;
 /* identical to box height, or 400% */
 color: #000;
 }
@@ -399,7 +395,7 @@ text-decoration: none;
           }
   
           h3{
-              font-size: 24px;
+              font-size: 18px;
               }
           
   }
@@ -485,7 +481,7 @@ text-decoration: none;
           }
   
           h3{
-              font-size: 21px;
+              font-size: 15px;
               }
           
   }
