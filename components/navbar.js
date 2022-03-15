@@ -88,7 +88,7 @@
         
         <li><a href="/">home</a></li>
         <li><a href="work">work</a></li> 
-        <li><a href="https://drive.google.com/file/d/10tnqxgtavlTrsvyqFokvmg3i31Ylc2t5/view?usp=sharing">resume</a></li>
+        <li><a href="https://drive.google.com/file/d/1nCj2IgyV3IqITM6QK9q1QeroiFJhU1P2/view?usp=sharing">resume</a></li>
         <li><a href="contact">contact</a></li>
         </ul>
         </nav>
