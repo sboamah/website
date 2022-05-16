@@ -23,12 +23,13 @@
     .gallery {
       display: inline-grid;
       align-items: center;
-      justify-content: left;
+      margin: 0 auto;
+      justify-content: center;
       column-gap: 50px;
       row-gap: 10px;
-      grid-template-columns: 100%;
+      grid-template-columns: 30% 30%;
       grid-template-rows: auto;
-     margin: 0 auto;
+     
     }
 
     h5{
@@ -36,12 +37,22 @@
       }
 
       @media (max-width: 800px) {
-      .gallery{
-      grid-template-columns: 100%;
+      .pic{
+        box-shadow: 0px 0px 0px #999;
+        border-bottom: 1px solid#999;
       }
+
+      .gallery{
+        grid-template-columns: 100%;
+        }
       }
 
     @media (max-width: 480px) {
+      .pic{
+        box-shadow: 0px 0px 0px #999;
+        border-bottom: 1px solid#999;
+      }
+
       .gallery{
       grid-template-columns: 300px;
       }
@@ -52,15 +63,21 @@
     }
     
     h4{
-      font-size: 30px;
+      font-size: 20px;
       text-transform: uppercase; 
       font-weight: 600;
+      line-height: 1em;
     }
+
     .pic{
       justify-self: center;
-      border-bottom: 1px solid black;
+      text-align: center;
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 1px 0px 2px #999;
       width: 100%;
-      height: 100%;
+      padding: 20px;
+      height: 220px;
       transition:  ease-in-out 1s;
     }
 
@@ -70,19 +87,27 @@
       transition:  ease-in-out 1s;
     }
 
-   p{
+   h6{
      font-size: 15px;
      color: #555;
      text-transform: uppercase; 
+     line-height: 0.5em;
      font-weight: 200;
    }
+
+   p{
+    font-size: 12px;
+    color: #555;
+    font-weight: 200;
+    line-height: 1.2em;
+    text-align: left;
+  }
+
     body{
       margin: 0 auto;
       text-align: center;
     }
 
-
-  
 
     </style>
 </head>
@@ -94,47 +119,67 @@
     
       <h1 style="text-align: center;">Projects</h1>
       <h5 style="text-align: center; font-weight: 200; line-height: 20px;">Hi there! Here is my <a href="https://github.com/sboamah">Github:</a></h5>
-     <div class="gallery"> 
-    <div class="pic" style="background-image: radial-gradient(circle, rgb(255, 240, 143) 0%, rgb(255, 210, 77) 22%, rgba(255,255,255,1) 50%);}"> 
+     
+    <div class="pic" style="width:300px; margin: 0 auto; height:100%">
      <div class="github-card" data-github="sboamah" data-width="100%" data-height="100%" data-theme="default"></div>
-    </div>
+     </div>
+     
     <br>
        <h5 style="text-align: center; font-weight: 200; line-height: 20px;">and some of my finished projects!</h5>
-      
+      <div class="gallery"> 
        <div class="pic">
-        <h4><a href="projectshadow">Project Shadow</a></p><br>
-        <p>Mobile UI Developer Intern</p>
+        <h4><a href="https://github.com/Stevens-ReCollect/ReCollect">ReCollect</a></h4>
+        <h6>Mobile UI/Front-end developer</h6>
+        <p>Collaborated in a team of five software engineers and two assisted living facilities to develop a mobile application for users with memory-related ailments.</p>
+        </div>
+
+        <div class="pic">
+        <h4><a href="telfar">Telfar Animated Typography</a></h4>
+        <h6>Computer Graphics Designer</h6>
+        <p>Leveraged skills in p5.js to create a landing page for the brand <em>Telfar</em>.</p>
+      </div>
+
+       <div class="pic">
+        <h4><a href="projectshadow">Project Shadow</a></h4>
+        <h6>Mobile UI Developer Intern</h6>
+        <p>Partnered with head UI/UX Designer and Senior Software Developer to integrate screens and finalize user workflows for an iOS and Android mobile stock trading application.
+        </p>
         </div>
 
       <div class="pic">
-        <h4><a href="launchhoboken">Launch Hoboken Design Competition</a></p><br>
-        <p>UI Design Finalist</p>
+        <h4><a href="launchhoboken">Launch Hoboken Design Competition</a></h4>
+        <h6>UI Design Finalist</h6>
+        <p>Created a website mockup for Launch Hoboken's online Innovation Portal; received second place.</p>
         </div>
 
       <div class="pic">
-      <h4><a href="positiveaffirmations">Positive Affirmation Generator</a></p><br>
-      <p>UI Designer, Front-end developer</p>
+          <h4><a href="http://github.com/elenirotsides/Trivia-Bot">Trivia Bot for Discord</a></h4>
+          <h6>Bot developer</h6>
+          <p>Integrated a bot for Discord servers that facilitates multiplayer trivia gameplay.
+          </p>
       </div>
 
       <div class="pic">
-      <h4><a href="blackaffairscouncil">Black Affairs Council Website</a></p><br>
-      <p>UI Designer, Front-end developer</p>
+            <h4><a href="http://github.com/Jhector10/Exchange4Students">Exchange4Students</a></h4>
+            <h6>Front-end developer</h6>
+            <p>Collaborated in creating an optimally efficient web application that allows the user to buy and sell used products.  
+            </p>
       </div>
 
       <div class="pic">
-      <h4><a href="music">Music</a></p><br>
-      <p>Singer, Songwriter, Producer</p>
+      <h4><a href="positiveaffirmations">Positive Affirmation Generator</a></h4>
+      <h6>UI Designer, Front-end developer</h6>
+      <p>Designed and implemented a responsive, user-friendly interface to generate and display randomized affirming sentences.
+      </p>
       </div>
 
       <div class="pic">   
-      <h4><a href="art">Art</a></p><br>
-      <p>Graphic Designer</p>
+      <h4><a href="art">Art</a></h4>
+      <h6>Graphic Designer</h6>
+      <p>A collection of graphic designs and logos I have made over the years.</p>
       </div>
 
-      <div class="pic">
-      <h4><a href="poetry">Poetry</a></p><br>
-      <p>Writer</p>
-      </div>
+    </div>
     
   <br><br></div>
   <my-footer></my-footer>
