@@ -1,162 +1,186 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
-@-webkit-keyframes fadeIn {
-	0% {opacity: 0;}	
-	100% {opacity: 1;}
-}
-
-@-moz-keyframes fadeIn {
-	0% {opacity: 0;}	
-	100% {opacity: 1;}
-}
-
-@-ms-keyframes fadeIn {
-	0% {opacity: 0;}	
-	100% {opacity: 1;}
-}
-
-@-o-keyframes fadeIn {
-	0% {opacity: 0;}	
-	100% {opacity: 1;}
-}
-
-@keyframes fadeIn {
-	0% {opacity: 0;}	
-	100% {opacity: 1;}
-}
-
-.fadeIn {
-	-webkit-animation-name: fadeIn;
-	-moz-animation-name: fadeIn;
-	-ms-animation-name: fadeIn;
-	-o-animation-name: fadeIn;
-	animation-name: fadeIn;
-}
-
-@-webkit-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
-	40% {-webkit-transform: translateY(-30px);}
-	60% {-webkit-transform: translateY(-15px);}
-}
-
-@-moz-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
-	40% {-moz-transform: translateY(-30px);}
-	60% {-moz-transform: translateY(-15px);}
-}
-
-@-ms-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-ms-transform: translateY(0);}
-	40% {-ms-transform: translateY(-30px);}
-	60% {-ms-transform: translateY(-15px);}
-}
-
-@-o-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
-	40% {-o-transform: translateY(-30px);}
-	60% {-o-transform: translateY(-15px);}
-}
-@keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-30px);}
-	60% {transform: translateY(-15px);}
-}
-
-.bounce {
-	-webkit-animation-name: bounce;
-	-moz-animation-name: bounce;
-	-ms-animation-name: bounce;
-	-o-animation-name: bounce;
-	animation-name: bounce;
-}
-
-body{
-    width:100%;
-    font-family: 'Jost', sans-serif;
-    animation: normal;
-    margin: 0 auto;
-    -webkit-animation:fadeIn 2s;
-    -moz-animation:fadeIn 2s;
-    -ms-animation:fadeIn 2s;
+body {
+  width: 100%;
+  font-family: "Jost", sans-serif;
+  animation: normal;
+  margin: 0 auto;
+  -webkit-animation: fadeIn 2s;
 }
 
 hr {
-    background-color: rgb(255, 210, 77);
-    border: 1px solid rgb(255, 210, 77);
-  }
-
-a{
-    color:#000;
-    text-decoration: none;
-    transition: ease-in-out 1s;
+  background-color: rgb(255, 210, 77);
+  border: 1px solid rgb(255, 210, 77);
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+  transition: ease-in-out 1s;
+}
 
 a:hover {
-    color: rgb(255, 210, 77);
-    transition: ease-in-out 1s;
-  
+  color: rgb(255, 210, 77);
+  transition: ease-in-out 1s;
 }
+
+/* Start of Nav */
+
+nav {
+  height: 20px;
+  width: 100%;
+  background-color: #ffd24d;
+  z-index: 2;
+  position: fixed;
+  margin: 0 auto;
+  margin-top: 0px;
+  padding-top: 15px;
+  padding-bottom: 45px;
+  text-align: right;
+  vertical-align: middle;
+  top: 0px;
+}
+
+#menu li {
+  font-size: 24px;
+  margin: 5px 5px;
+  list-style: none;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+}
+
+.left {
+  float: left;
+  text-align: left;
+  margin-left: 20px;
+}
+
+nav p {
+  font-size: 24px;
+  margin: 5px;
+  font-weight: 600;
+  display: inline;
+  text-transform: capitalize;
+}
+
+nav a {
+  color: #000;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+nav a:hover {
+  padding-bottom: 3px;
+  transition: ease-in-out 1s;
+  text-shadow: 2px 2px #000;
+  box-shadow: inset 0 -2px 0 0 #000;
+}
+
+@media (max-width: 800px) {
+  nav {
+    font-size: 13px;
+  }
+
+  nav p {
+    font-size: 20px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 497px) {
+  nav {
+    text-align: right;
+    font-size: 13px;
+  }
+
+  nav p {
+    display: none;
+  }
+}
+
+nav img {
+  transition: all 0.2s ease-in-out;
+}
+
+nav img:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+#menu {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+  margin: 0 auto;
+  margin-left: -30px;
+  z-index: 0;
+  background-color: #ffd24d;
+  animation: bounceInUp 2s;
+}
+
+/* End of Nav */
 
 button {
-    border: 1px solid #000;
-    background-color: #fff;
-    color: #000;
-    letter-spacing: 2px;
-    padding: 10px;
-    font-size: 15px;
-    width: fit-content;
-    display: inline;
-    margin: 20px auto;
-    text-transform: lowercase;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  letter-spacing: 2px;
+  padding: 10px;
+  font-size: 15px;
+  width: fit-content;
+  display: inline;
+  margin: 20px auto;
+  text-transform: lowercase;
 }
 
-button:hover{
-    box-shadow: 1px 2px 1px #000;
-    transition: ease-in-out 2s;
+button:hover {
+  box-shadow: 1px 2px 1px #000;
+  transition: ease-in-out 2s;
 }
 
-button a{
-    color: #000;
+button a {
+  color: #000;
 }
-
 
 /* Sylvia Boamah */
-h3{
-font-weight: 300;
-font-size: 18px;
-/* identical to box height, or 400% */
-color: #000;
+h3 {
+  font-weight: 300;
+  font-size: 18px;
+  /* identical to box height, or 400% */
+  color: #000;
 }
 
-#work{
-    width: 100%;
-    margin: 0 auto;
-    vertical-align: middle;
-    align-items:flex-start;
-    align-content: flex-start;
-    justify-content: center;
+#work {
+  width: 100%;
+  margin: 0 auto;
+  vertical-align: middle;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: center;
 }
 
-.workbox{
-    width: 280px;
-    height:300px;
-    display: inline-block;
-    text-align: center;
-    padding:25px;
-    line-height: 28px;
+.workbox {
+  width: 280px;
+  height: 300px;
+  display: inline-block;
+  text-align: center;
+  padding: 25px;
+  line-height: 28px;
 }
 
-.workbox img{
-    opacity: 0.8;
+.workbox img {
+  opacity: 0.8;
 }
 
-.workbox img:hover{
-    opacity: 1;
-    transition: ease-in-out 1s;
+.workbox img:hover {
+  opacity: 1;
+  transition: ease-in-out 1s;
 }
 
-#showcontainer{
+#showcontainer {
   top: 60px;
   position: relative;
   width: 1020px;
@@ -168,320 +192,331 @@ color: #000;
 }
 
 @keyframes moveIt {
-  0%{background-position: 8vw; 
+  0% {
+    background-position: 8vw;
     background-repeat: no-repeat;
-    background-image: radial-gradient(circle, rgb(255, 240, 143) 0%, rgb(255, 210, 77) 22%, rgba(255,255,255,1) 50%);}
-  50% {background-position: -8vw; 
+    background-image: radial-gradient(
+      circle,
+      rgb(255, 240, 143) 0%,
+      rgb(255, 210, 77) 22%,
+      rgba(255, 255, 255, 1) 50%
+    );
+  }
+  50% {
+    background-position: -8vw;
     background-repeat: no-repeat;
-    background-image: radial-gradient(circle, rgb(255, 240, 143) 0%, rgb(255, 210, 77) 22%, rgba(255,255,255,1) 50%);}
-  100%{background-position: 8vw; 
+    background-image: radial-gradient(
+      circle,
+      rgb(255, 240, 143) 0%,
+      rgb(255, 210, 77) 22%,
+      rgba(255, 255, 255, 1) 50%
+    );
+  }
+  100% {
+    background-position: 8vw;
     background-repeat: no-repeat;
-     background-image: radial-gradient(circle, rgb(255, 240, 143) 0%, rgb(255, 210, 77) 22%, rgba(255,255,255,1) 50%);}
+    background-image: radial-gradient(
+      circle,
+      rgb(255, 240, 143) 0%,
+      rgb(255, 210, 77) 22%,
+      rgba(255, 255, 255, 1) 50%
+    );
+  }
 }
-
 
 /* Intro */
-#container1{
-position: relative;
-width: 70%;
-padding: 150px 30px;
-margin: 0 auto;
-animation: moveIt 5s linear infinite;
-background-repeat: no-repeat;
-background: radial-gradient(circle, rgb(255, 240, 143) 0%, rgb(255, 210, 77) 22%, rgba(255,255,255,1) 50%);
+#container1 {
+  position: relative;
+  width: 70%;
+  padding: 150px 30px;
+  margin: 0 auto;
+  animation: moveIt 5s linear infinite;
+  background-repeat: no-repeat;
+  background: radial-gradient(
+    circle,
+    rgb(255, 240, 143) 0%,
+    rgb(255, 210, 77) 22%,
+    rgba(255, 255, 255, 1) 50%
+  );
 }
 
-
-#container2{
-    position: relative;
-    margin: 0 auto;
-    width: 70%;
-    padding: 0 5%;
-    height: 600px;
-    justify-content: center;
-    align-items: center;
-    display: block;
+#container2 {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  padding: 0 5%;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  display: block;
 }
 
-#container2 img{
-    width: 33%; 
-    float: left;
-    padding:10px;
-    margin-right: 30px;
-    border: 1px solid #000;
+#container2 img {
+  width: 33%;
+  float: left;
+  padding: 10px;
+  margin-right: 30px;
+  border: 1px solid #000;
 }
 
-#container2 h1{
- margin-top: 40px;
- 
+#container2 h1 {
+  margin-top: 40px;
 }
 
-#container2 p{
-    width: 50%; 
-    padding-left: 0px;
+#container2 p {
+  width: 50%;
+  padding-left: 0px;
 }
 
-#container3{
-    position: relative;
-    width: 70%;
-    margin: 0 auto;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    height: 550px;
+#container3 {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
 }
 
-#container4{
-    position: relative;
-    margin: 0 auto;
-    width: 70%;
-    height: auto;
-    display: block;
-    padding-bottom: 100px;
+#container4 {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+  display: block;
+  padding-bottom: 100px;
 }
 
 /* designer, developer, & creative. */
-#title{
-font-size: 84px;
-/* or 94% */
-letter-spacing: 2px;
-display: block;
-color: #000;
-text-transform: lowercase;
-
+#title {
+  font-size: 84px;
+  /* or 94% */
+  letter-spacing: 2px;
+  display: block;
+  color: #000;
+  text-transform: lowercase;
 }
 
-
 #title:hover {
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
-    animation: normal;
-    -webkit-text-fill-color: #fff;
-    transition: ease-in-out 1s;
-    -webkit-animation:bounce 2s;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  animation: normal;
+  -webkit-text-fill-color: #fff;
+  transition: ease-in-out 1s;
+  -webkit-animation: bounce 2s;
 }
 
 /* Hi I’m Sylvia Boamah, an aspiring front-end developer, UI/UX designer, and content creator based in New Jersey. */
-h4{
-font-weight: 300;
-font-size: 22px;
-color: #000000;
+h4 {
+  font-weight: 300;
+  font-size: 22px;
+  color: #000000;
 }
 
 /* skills */
-h1{
-position: relative;
-font-style: normal;
-display: block;
-letter-spacing: 2px;
-font-weight: 100;
-font-size: 70px;
-line-height: 60px;
-text-transform: lowercase;
-color: #000000;
+h1 {
+  position: relative;
+  font-style: normal;
+  display: block;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 70px;
+  line-height: 60px;
+  text-transform: lowercase;
+  color: #000000;
 }
-
 
 /* skills */
-p{
-position: relative;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-color: #000000;
-display: inline;
-}
-
-li{
+p {
+  position: relative;
+  font-style: normal;
   font-weight: 300;
   font-size: 18px;
-  }
+  color: #000000;
+  display: inline;
+}
+
+li {
+  font-weight: 300;
+  font-size: 18px;
+}
 
 h1::first-letter {
-text-shadow: -1px -1px 0 #000, 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 #000,
+    1px 1px 0 #000;
   animation: normal;
- color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 /* skill category */
-h2{
-position: relative;
-font-style: normal;
-font-weight: 200;
-font-size: 30px;
-text-transform: uppercase;
-color: #FF0000;
-display: inline-block;
+h2 {
+  position: relative;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #ff0000;
+  display: inline-block;
 }
 
-h2 a{
-color: #FF0000;
-text-decoration: none;
+h2 a {
+  color: #ff0000;
+  text-decoration: none;
 }
 
+@media (max-width: 800px) {
+  #title {
+    font-size: 40px;
+  }
 
-@media (max-width:800px){
-    #title{
-        font-size: 40px;
-    }
+  #showcontainer {
+    width: 720px;
+    height: auto;
+    margin: 0 auto;
+  }
 
-    #showcontainer{
-      width: 720px;
-      height: auto;
-      margin: 0 auto;
-    }
-  
-    #container1{
+  #container1 {
     top: 50px;
     width: 80%;
     margin: 0 auto;
-      height: auto;
-      }
-
-      #container1 img{
-        width: 20%; 
-      }
-      
-      #container2{
-        width: 80%;
-          height: auto;
-          margin: 0 auto;
-      }
-
-      #container2 p{
-        width: 80%;
-          height: auto;
-      }
-
-      #container3{
-        width: 80%;
-          height: auto;
-          margin: 0 auto;
-      }
-
-      #container4{
-        width: 80%;
-          height: auto;
-          margin: 0 auto;
-      }
-
-      #container2 img{
-        width: 50%;
-      }
-
-    
-
-      h4{
-          font-size: 18px;
-          }
-          
-          /* skills */
-          h1{
-          font-size: 50px;
-          }
-          
-          
-          /* skills */
-          p{
-          font-size: 15px;
-          }
-          
-          li{
-            font-size: 15px;
-            }
-          
-          /* skill category */
-          h2{
-          font-size: 24px;
-          }
-  
-          h3{
-              font-size: 18px;
-              }
-          
+    height: auto;
   }
 
-
-@media (max-width:480px){
-    #title{
-        font-size: 36px;
-    }
-    
-    #showcontainer{
-      width: 300px;
-      height: auto;
-      margin: 0 auto;
-    }
-
-    #showcontainer img{
-        width: 100%;
-      }
-
-
-    #container1{
-      padding: 80px 30px;
-      height: auto;
-      margin: 0 auto;
-      }
-      #container1 img{
-        width: 40%; 
-        margin: 0 auto;
-        
-      }
-
-      #container2{
-      height: auto;
-      margin: 0 auto;
-      }
-      #container2 img{
-        width: 100%;
-        margin-top: -20px;
-        border: none;
-        padding: 0px;
-        padding-bottom: 10px;
-      }
-      #container2 p{
-        width: 100%; 
-        padding-left: 5px;
-    }
-
-      #work{
-        margin: 0 auto;  
-      }
-
-      .workbox{
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: 20px;
-        padding-bottom:20px;
-      }
-    
-      h4{
-          font-size: 15px;
-          }
-          
-          /* skills */
-          h1{
-          font-size: 45px;
-          }
-          
-          
-          /* skills */
-          p{
-          font-size: 12px;
-          }
-          
-          li{
-            font-size: 12px;
-            }
-            
-          
-          /* skill category */
-          h2{
-          font-size: 21px;
-          }
-  
-          h3{
-              font-size: 15px;
-              }
-          
+  #container1 img {
+    width: 20%;
   }
+
+  #container2 {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #container2 p {
+    width: 80%;
+    height: auto;
+  }
+
+  #container3 {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #container4 {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #container2 img {
+    width: 50%;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  /* skills */
+  h1 {
+    font-size: 50px;
+  }
+
+  /* skills */
+  p {
+    font-size: 15px;
+  }
+
+  li {
+    font-size: 15px;
+  }
+
+  /* skill category */
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  #title {
+    font-size: 36px;
+  }
+
+  #showcontainer {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #showcontainer img {
+    width: 100%;
+  }
+
+  #container1 {
+    padding: 80px 30px;
+    height: auto;
+    margin: 0 auto;
+  }
+  #container1 img {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  #container2 {
+    height: auto;
+    margin: 0 auto;
+  }
+  #container2 img {
+    width: 100%;
+    margin-top: -20px;
+    border: none;
+    padding: 0px;
+    padding-bottom: 10px;
+  }
+  #container2 p {
+    width: 100%;
+    padding-left: 5px;
+  }
+
+  #work {
+    margin: 0 auto;
+  }
+
+  .workbox {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  /* skills */
+  h1 {
+    font-size: 45px;
+  }
+
+  /* skills */
+  p {
+    font-size: 12px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  /* skill category */
+  h2 {
+    font-size: 21px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+}

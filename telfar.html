@@ -23,7 +23,40 @@
       
         </style>
 
-    <my-navbar></my-navbar>
+        <header>
+            <nav>
+            <p class="left"><a href="/">Sylvia Boamah</a></p> 
+            <img id="hamburger" onclick="showLinks()" href="#" width="30px" src="images/Hamburger_icon.png"><br><br>
+            <ul id ="menu">
+                <li><a href="/">home</a></li>
+                <li><a href="work">work</a></li> 
+                <li><a href="https://drive.google.com/file/d/1nCj2IgyV3IqITM6QK9q1QeroiFJhU1P2/view?usp=sharing">resume</a></li>
+                <li><a href="contact">contact</a></li>
+                <li><a href="https://www.redbubble.com/people/jollofrican/shop?asc=u">shop</a></li>
+            </ul>
+           
+            </nav>
+            </header>
+        
+            <script>
+              let shown = false;
+            function showLinks(){
+                    let menu =  document.getElementById('menu');
+                    let hamburger = document.getElementById('hamburger');
+                    console.log(shown);
+                    console.log(menu);
+                        if (shown == false){
+                            shown = true;
+                            menu.style.display = 'block';
+                            hamburger.src = 'images/x.png';
+                            menu.style.transition = 'bounce 2s';
+                        } else{
+                            shown = false;
+                                menu.style.display = 'none';
+                                hamburger.src='images/Hamburger_icon.png';
+                    }
+                }
+            </script>
 
     <div id="showcontainer">
         <h1>Animated Typography: Telfar</h1>
