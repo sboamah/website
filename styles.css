@@ -91,11 +91,16 @@ nav a:hover {
 @media (max-width: 497px) {
   nav {
     text-align: right;
+    height:10px;
     font-size: 13px;
   }
 
   nav p {
     display: none;
+  }
+
+  nav img{
+    margin-right: 40px;
   }
 }
 
