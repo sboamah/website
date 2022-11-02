@@ -1,119 +1,188 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>Telfar Typography Project | Sylvia Boamah</title>
-  <meta name="description" content="Portfolio">
-  <meta name="author" content="Sylvia Boamah">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="http://static.tumblr.com/z0cd8ty/aJjm6uyej/meffects.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <script src="components/navbar.js" type="text/javascript"></script>
-  <script src="components/footer.js" type="text/javascript"></script>
-  <link rel="icon" type="image/png" href="images/Logo.png" />
-</head>
+    <title>Telfar Typography Project | Sylvia Boamah</title>
+    <meta name="description" content="Portfolio" />
+    <meta name="author" content="Sylvia Boamah" />
 
-<body>
-    <style type="text/css">
-      
-        </style>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="http://static.tumblr.com/z0cd8ty/aJjm6uyej/meffects.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="components/navbar.js" type="text/javascript"></script>
+    <script src="components/footer.js" type="text/javascript"></script>
+    <link rel="icon" type="image/png" href="images/Logo.png" />
+  </head>
 
-        <header>
-            <nav>
-            <p class="left"><a href="/">Sylvia Boamah</a></p> 
-            <img id="hamburger" onclick="showLinks()" href="#" width="30px" src="images/Hamburger_icon.png"><br><br>
-            <ul id ="menu">
-                <li><a href="/">home</a></li>
-                <li><a href="work">work</a></li> 
-                <li><a href="https://drive.google.com/file/d/1nCj2IgyV3IqITM6QK9q1QeroiFJhU1P2/view?usp=sharing">resume</a></li>
-                <li><a href="contact">contact</a></li>
-                <li><a href="https://www.redbubble.com/people/jollofrican/shop?asc=u">shop</a></li>
-            </ul>
-           
-            </nav>
-            </header>
-        
-            <script>
-              let shown = false;
-            function showLinks(){
-                    let menu =  document.getElementById('menu');
-                    let hamburger = document.getElementById('hamburger');
-                    console.log(shown);
-                    console.log(menu);
-                        if (shown == false){
-                            shown = true;
-                            menu.style.display = 'block';
-                            hamburger.src = 'images/x.png';
-                            menu.style.transition = 'bounce 2s';
-                        } else{
-                            shown = false;
-                                menu.style.display = 'none';
-                                hamburger.src='images/Hamburger_icon.png';
-                    }
-                }
-            </script>
+  <body>
+    <style type="text/css"></style>
+
+    <header>
+      <nav>
+        <p class="left"><a href="/">Sylvia Boamah</a></p>
+        <img
+          id="hamburger"
+          onclick="showLinks()"
+          href="#"
+          width="30px"
+          src="images/Hamburger_icon.png"
+        /><br /><br />
+        <ul id="menu">
+          <li><a href="/">home</a></li>
+          <li><a href="work">work</a></li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1nCj2IgyV3IqITM6QK9q1QeroiFJhU1P2/view?usp=sharing"
+              >resume</a
+            >
+          </li>
+          <li><a href="contact">contact</a></li>
+          <li>
+            <a href="https://www.redbubble.com/people/jollofrican/shop?asc=u"
+              >shop</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <script>
+      let shown = false;
+      function showLinks() {
+        let menu = document.getElementById("menu");
+        let hamburger = document.getElementById("hamburger");
+        console.log(shown);
+        console.log(menu);
+        if (shown == false) {
+          shown = true;
+          menu.style.display = "block";
+          hamburger.src = "images/x.png";
+          menu.style.transition = "bounce 2s";
+        } else {
+          shown = false;
+          menu.style.display = "none";
+          hamburger.src = "images/Hamburger_icon.png";
+        }
+      }
+    </script>
 
     <div id="showcontainer">
-        <h1>Animated Typography: Telfar</h1>
-        <h4><strong>My Role:</strong> Computer Graphics Designer; <strong>Type of Project:</strong> Academic;
-            <strong>Library:</strong> p5.js </h4>
+      <h1>Animated Typography: Telfar</h1>
+      <h3>
+        <strong>My Role:</strong> Computer Graphics Designer
+        <br />
+        <strong> Type of Project:</strong> Academic
+        <br />
+        <strong>Library:</strong> p5.js
+      </h3>
 
-        <img style="width:100%" alt="Telfar Animated Typography" src="/images/Telfar.gif">
-       
-        <p><strong>Problem Statement:</strong> The assignment is to create a landing page for a brand's website, focusing on animated (and, optionally, also interactive) typography. You'll need to think about stylistic choices in the context of a client-driven project and their brand (color, typefaces used, overall feel) but are also encouraged to creatively/wildly experiment.
-            <br>
-        <p><strong>Challenge:</strong> To create animated typography for a brand/person/org's website. Can be a fixed proportion, but should fill the screen's width automatically.
-            <br>
-            
-        <strong>What I did:</strong> I used p5.js to create an animated landing page for Telfar.</p>
-            <hr>
-            <h4 style="text-align: center;">Timeline and Milestones </h4>
-           <p style="text-align: left;"> 
-            Design brief by 2/2/2022 ✓<br>
-            Final design by 2/9/2022 ✓<br>
-            </p><br>
-            <hr>
-            <h4 style="text-align: center;">Design Brief</h4>
-            <p style="text-align: center;"><strong><a href="https://shop.telfar.net/">Telfar</a></strong> is genderless fashion label 
-                based in Bushwick, Brooklyn. The queer Black-owned brand was founded by Telfar 
-                Clemens in 2005. The Telfar Shopping Bag is the biggest staple of the brand, 
-                made of vegan leather and branded with the signature "T" Telfar logo.<br>
-                Highlighted in the design brief are:  
-            </p>
-            <ul>
-                    <li>Audience: words to describe the target audience of Telfar</li>
-                    <li>Visual & Motion Words: descripters used to inspire the typography</li>
-                    <li>Font Samples</li>
-                    <li>Color Schemes</li>
-                    <li>Mood Board: specific design inspirations</li>
-            </ul>
-            <p>My main inspiration was sourced from <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.behance.net%2Fgallery%2F25131503%2FPolytechnic-University-Design-Annual-Show-2013&psig=AOvVaw1M3o-c6_S-iWGE9n93iNO3&ust=1644959448571000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCODikc-NgPYCFQAAAAAdAAAAABAN">Hong Kong PolyU Design Shows in 2013</a>. I loved how the typography overlaps each other to create a dynamic image with simple geometry. 
-                I knew I could code something as dynamic and make it come to life.</p><br><br>
-    
-            <h4 style="text-decoration: underline">
-                    <a href="https://drive.google.com/file/d/1Ig_xvDJp1qx70XEv63QE3EMWezBQTjHq/view?usp=sharing">See full design brief.</a></h4>
-            <hr>
-            <h4 style="text-align: center;">Screenshots</h4>
-            <p>Another inspiration was early 2000 website layouts and Telfar's promotional material on Instagram.
-            Shown is the brand name layered over each other (right), the letters which spell Telfar (left), and images encircled by taglines (top right).
-                <br>
-                *None of the images used in the design are owned by me.*
-            </p>
-            <h3 style="text-align:center;"><a href="https://editor.p5js.org/sboamah1/full/agpmPUWsl">View Site</a></h3>
-            <br><br>
-            <img style="width:100%" alt="Telfar Animated Typography" src="/images/Boamah_TelfarFinal1.jpg">
-            <img style="width:100%" alt="Telfar Animated Typography" src="/images/Boamah_TelfarFinal2.jpg">
-            <img style="width:100%" alt="Telfar Animated Typography" src="/images/Boamah_TelfarFinal3.jpg">
-            <hr>
-            <br><br>
+      <img
+        style="width: 100%"
+        alt="Telfar Animated Typography"
+        src="/images/Telfar.gif"
+      />
 
-</div>
-<my-footer></my-footer>
+      <p>
+        <strong>Problem Statement:</strong> Create a landing page for a brand's
+        website, focusing on animated (and optionally interactive) typography.
+        Think about stylistic choices in the context of a client-driven project
+        and their brand (color, typefaces used, overall feel,etc.) but are also
+        encouraged to creatively/wildly experiment. <br /><br />
+      </p>
 
-</body>
+      <p>
+        <strong>Challenge:</strong> To create animated typography for a
+        brand/person/org's website. Can be a fixed proportion, but should fill
+        the screen's width automatically. <br /><br />
+
+        <strong>What I did:</strong> I used p5.js to create an animated landing
+        page for Telfar.
+      </p>
+      <hr />
+      <h4>Timeline and Milestones</h4>
+      <p style="text-align: left">
+        Design brief by 2/2/2022 ✓<br />
+        Final design by 2/9/2022 ✓<br />
+      </p>
+      <br />
+      <hr />
+      <h4>Design Brief</h4>
+      <p>
+        <strong><a href="https://shop.telfar.net/">Telfar</a></strong> is
+        genderless fashion label based in Bushwick, Brooklyn. The queer
+        Black-owned brand was founded by Telfar Clemens in 2005. The Telfar
+        Shopping Bag is the biggest staple of the brand, made of vegan leather
+        and branded with the signature "T" logo.<br />
+        Highlighted in the design brief are:
+      </p>
+      <ul>
+        <li>Audience: words to describe the target audience of Telfar</li>
+        <li>
+          Visual & Motion Words: descripters used to inspire the typography
+        </li>
+        <li>Font Samples</li>
+        <li>Color Schemes</li>
+        <li>Mood Board: specific design inspirations</li>
+      </ul>
+      <p>
+        My main inspiration was sourced from
+        <a
+          href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.behance.net%2Fgallery%2F25131503%2FPolytechnic-University-Design-Annual-Show-2013&psig=AOvVaw1M3o-c6_S-iWGE9n93iNO3&ust=1644959448571000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCODikc-NgPYCFQAAAAAdAAAAABAN"
+          >Hong Kong PolyU Design Shows in 2013</a
+        >. I loved how the typography overlaps each other to create a dynamic
+        image with simple geometry. I knew I could code something as dynamic and
+        make it come to life.
+      </p>
+      <br /><br />
+
+      <h3 style="text-decoration: underline">
+        <a
+          href="https://drive.google.com/file/d/1Ig_xvDJp1qx70XEv63QE3EMWezBQTjHq/view?usp=sharing"
+          >See full design brief.</a
+        >
+      </h3>
+      <hr />
+      <h4>Screenshots</h4>
+      <p>
+        Another inspiration was early 2000 website layouts and Telfar's
+        promotional material on Instagram. Shown is the brand name layered over
+        each other (right), the letters which spell Telfar (left), and images
+        encircled by taglines (top right).
+        <br />
+        *None of the images used in the design are owned by me.*
+      </p>
+      <h3 style="text-decoration: underline">
+        <a href="https://editor.p5js.org/sboamah1/full/agpmPUWsl">View Site</a>
+      </h3>
+      <br /><br />
+      <img
+        style="width: 100%"
+        alt="Telfar Animated Typography"
+        src="/images/Boamah_TelfarFinal1.jpg"
+      />
+      <img
+        style="width: 100%"
+        alt="Telfar Animated Typography"
+        src="/images/Boamah_TelfarFinal2.jpg"
+      />
+      <img
+        style="width: 100%"
+        alt="Telfar Animated Typography"
+        src="/images/Boamah_TelfarFinal3.jpg"
+      />
+      <hr />
+      <br /><br />
+    </div>
+    <my-footer></my-footer>
+  </body>
 </html>

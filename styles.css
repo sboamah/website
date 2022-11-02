@@ -43,7 +43,7 @@ nav {
 
 #menu li {
   font-size: 24px;
-  margin: 5px 5px;
+  margin: 15px 5px;
   list-style: none;
   text-align: center;
   display: block;
@@ -105,6 +105,8 @@ nav a:hover {
 }
 
 nav img {
+  margin-right: 10px;
+  margin-top: 2px;
   transition: all 0.2s ease-in-out;
 }
 
@@ -117,10 +119,10 @@ nav img:hover {
 #menu {
   display: none;
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   padding-top: 100px;
   margin: 0 auto;
-  margin-left: -60px;
+  margin-top: -20px;
   z-index: 0;
   background-color: #fff;
   animation: bounceInUp 2s;
