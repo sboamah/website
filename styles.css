@@ -39,15 +39,25 @@ nav {
   text-align: right;
   vertical-align: middle;
   top: 0px;
+  border-bottom: 1px solid #000;
 }
 
 #menu li {
   font-size: 24px;
   margin: 15px 5px;
+  color:#fff;
   list-style: none;
-  text-align: center;
+  text-align: left;
   display: block;
   text-transform: uppercase;
+}
+
+#menu li a{
+  color:#fff;
+}
+
+#menu li a:hover{
+  color:rgb(255, 210, 77);;
 }
 
 .left {
@@ -119,12 +129,15 @@ nav img:hover {
 #menu {
   display: none;
   height: 200vh;
+  width:150px;
   padding-top: 100px;
-  margin: 0 auto;
-  margin-top: -20px;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: -5px;
   z-index: 0;
-  background-color: #fff;
-  animation: bounceInUp 2s;
+  background-color: #000;
+  border-left: 1px solid #000;
+  animation: fadeInRight 0.5s;
 }
 
 /* End of Nav */

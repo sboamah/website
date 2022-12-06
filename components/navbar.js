@@ -101,21 +101,21 @@
 //         </nav>
 //         </header>
 
-//         <script>
-//         function showLinks(){
-//             let shown = false;
-//                 let menu =  document.getElementById('menu');
-//                 console.log(shown);
-//                 console.log(menu);
-//                     if (shown == false){
-//                         shown = true;
-//                         menu.style.display = block;
-//                     } else{
-//                         shown = false;
-//                             menu.style.display = none;
-//                 }
-//             }
-//         </script>
+        // <script>
+        // function showLinks(){
+        //     let shown = false;
+        //         let menu =  document.getElementById('menu');
+        //         console.log(shown);
+        //         console.log(menu);
+        //             if (shown == false){
+        //                 shown = true;
+        //                 menu.style.display = block;
+        //             } else{
+        //                 shown = false;
+        //                     menu.style.display = none;
+        //         }
+        //     }
+        // </script>
 //         `;
 
 //     class Navbar extends HTMLElement {
