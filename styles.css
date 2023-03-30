@@ -48,6 +48,7 @@ nav {
   color:#000;
   list-style: none;
   text-align: center;
+  margin-left: -50px;
   display: block;
   text-transform: uppercase;
 }
