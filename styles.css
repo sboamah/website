@@ -142,7 +142,11 @@ nav img:hover {
 
 @media(max-width: 414px) {
   #menu{
-    margin-top: -10px;
+    margin-top: -15px;
+    width: auto;
+  }
+  #menu li{
+    margin-left: -30px;
   }
   
 }
