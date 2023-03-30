@@ -398,6 +398,9 @@ h2 a {
   #title {
     font-size: 40px;
   }
+  #menu li{
+    margin-left: -30px;
+  }
 
   #showcontainer {
     width: 90%;
